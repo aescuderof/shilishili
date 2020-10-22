@@ -1,0 +1,167 @@
+body{
+	margin: 0px;
+	background-image: url('img/dark_wall.png');
+}
+
+header img{
+	width: 100%;
+	display: block;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered h3 {
+  font-family: quatro-slab, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #C27234;
+}
+
+.centered h4 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #C27234;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  color: #C27234;
+}
+
+a:active {
+	color: red;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+	width: 20%;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	color: white;
+}
+
+.right img{
+	display: block;
+	padding: 50px 0px 50px 0px;
+
+}
+
+.middle {
+  width: 60%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.middle h3{
+font-family: quatro-slab, serif;
+font-weight: 700;
+font-style: normal;
+font-size: 36px;
+color: #C27234;
+}
+
+.middle h5 {
+font-family: 'Nunito', sans-serif;
+font-weight: 300;
+color: white;
+padding:0px 290px 20px 290px;	
+
+}
+
+.middle p{
+font-family: 'Nunito', sans-serif;
+font-weight: 300;
+color: white;
+padding:20px 100px 20px 100px;
+
+}
+
+.middle img {
+	height: 60%;
+}
+
+.middle hr{
+	 background-color: #C27234; 
+	 height: 1px; 
+	 border: 0;
+	 width: 50%;
+}
+
+#space {
+margin-bottom: 90px;
+}
+
+ul.navbar{
+	list-style-type: circle;
+	height:0px;
+	color:white;
+}
+
+ul.navbar li {
+	padding: 10px;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  display: inline;
+  float: left;
+}
+
+.main {
+	margin-left: 160px; /* Same as the width of the sidenav */
+}
+
+
+footer {
+	display: block;
+}
