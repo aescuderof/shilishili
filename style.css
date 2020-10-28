@@ -66,8 +66,7 @@ a:active {
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  padding: 0%;
 }
 
 .left, .right {
@@ -77,10 +76,52 @@ a:active {
 	color: white;
 }
 
-.right img{
+.right img {
 	display: block;
-	padding: 50px 0px 50px 0px;
+	padding: 0% 0% 0% 0%;
+  width: 35%;
+}
 
+#uno {
+  display: block;
+  align-content: center;
+  padding: 18% 0% 0% 0%;
+
+}
+
+#dos {
+  display: block;
+  padding: 20% 0% 0% 0%;
+}
+
+#tres {
+  display: block;
+  padding: 25% 0% 0% 0%;
+}
+
+#cuatro {
+  display: block;
+  padding: 22% 0% 0% 0%;
+}
+
+#cinco {
+  display: block;
+  padding: 30% 0% 0% 0%;
+}
+
+#seis {
+  display: block;
+  padding: 35% 0% 0% 0%;
+}
+
+#siete {
+  display: block;
+  padding: 32% 0% 0% 0%;
+}
+
+#ocho {
+  display: block;
+  padding: 22% 0% 0% 0%;
 }
 
 .middle {
@@ -88,6 +129,9 @@ a:active {
   text-align: center;
 }
 
+.row {
+  display: block;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -107,7 +151,7 @@ color: #C27234;
 font-family: 'Nunito', sans-serif;
 font-weight: 300;
 color: white;
-padding:0px 290px 20px 290px;	
+padding:0% 35% 0% 35%;	
 
 }
 
@@ -115,12 +159,12 @@ padding:0px 290px 20px 290px;
 font-family: 'Nunito', sans-serif;
 font-weight: 300;
 color: white;
-padding:20px 100px 20px 100px;
+padding:0% 20% 0% 20%;
 
 }
 
 .middle img {
-	height: 60%;
+	width: 25%;
 }
 
 .middle hr{
@@ -131,7 +175,7 @@ padding:20px 100px 20px 100px;
 }
 
 #space {
-margin-bottom: 90px;
+margin-bottom: 10%;
 }
 
 ul.navbar{
@@ -146,10 +190,10 @@ ul.navbar li {
 
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 15%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  top: 10%; /* Stay at the top */
   left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
