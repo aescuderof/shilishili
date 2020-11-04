@@ -8,6 +8,7 @@ header img{
 	display: block;
 }
 
+
 .container {
   position: relative;
   text-align: center;
@@ -71,26 +72,22 @@ a:active {
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 0%;
+ 
 }
 
 .left, .right {
-	width: 20%;
+	
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
 	color: white;
 }
 
-.right img {
-	display: block;
-	padding: 0% 0% 0% 0%;
-  width: 35%;
-}
+
 
 #uno {
   display: block;
   align-content: center;
-  padding: 18% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
 
 }
 
@@ -157,7 +154,7 @@ margin-top: 20px;
 font-family: 'Nunito', sans-serif;
 font-weight: 300;
 color: white;
-padding:0% 35% 0% 35%;	
+/* padding:0% 35% 0% 35%;	*/
 
 }
 
@@ -215,3 +212,8 @@ ul.navbar li {
 footer {
 	display: block;
 }
+
+
+
+
+
