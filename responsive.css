@@ -148,7 +148,11 @@ p {
   color: white;
   padding:0% 0% 0% 0%;
   text-align: center;
+}
 
+
+div {
+  display: block;
 }
 
 @media screen and (min-width: 480px) {
@@ -156,7 +160,6 @@ p {
     width: 100%;
     display: block;
   }
-
   
 
   .centered h1 {
@@ -193,6 +196,47 @@ p {
   letter-spacing: 10px; 
   }
 
+  body {
+    background: blue;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    background: gray;
+  }
+
+  .middle h5 {
+  text-align: center;
+  padding: 0% 25% 0% 25%;
+
+  }
+
+  .middle p {
+  text-align: center;
+  padding: 0% 10% 0% 10%;
+
+  }
   
+}
+
+@media screen and (min-width: 950px) {
+  body {
+    background: brown;
+  }
+
+   .column {
+    display: block;
+    width: 28%;
+    margin: 2%;
+
+   }
+
+   .right img {
+  display: block;
+  width: 35%;
+  margin: 2%;
+  }
+
   
 }
