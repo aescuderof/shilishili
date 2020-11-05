@@ -1,6 +1,5 @@
 body{
   position: relative;
-<<<<<<< HEAD
   margin: 0;
   background-image: url('img/dark_wall.png');
 }
@@ -149,24 +148,18 @@ p {
   color: white;
   padding:0% 0% 0% 0%;
   text-align: center;
-=======
 }
 
 
 div {
   display: block;
->>>>>>> 5bd046c863315a36e661316a6057260c7202f99e
-
 }
 
 @media screen and (min-width: 480px) {
   header img{
     width: 100%;
     display: block;
-  }
-
-<<<<<<< HEAD
-  
+  }  
 
   .centered h1 {
   font-size: 21px;  
@@ -202,17 +195,9 @@ div {
   letter-spacing: 10px; 
   }
 
-  
-=======
-  body {
-    background: blue;
-  }
 }
 
 @media screen and (min-width: 767px) {
-  body {
-    background: gray;
-  }
 
   .middle h5 {
   text-align: center;
@@ -229,9 +214,6 @@ div {
 }
 
 @media screen and (min-width: 950px) {
-  body {
-    background: brown;
-  }
 
    .column {
     display: block;
@@ -243,11 +225,7 @@ div {
    .right img {
   display: block;
   width: 35%;
-  margin: 2%;
-
-
-  
+  margin: 2%; 
   }
->>>>>>> 5bd046c863315a36e661316a6057260c7202f99e
   
 }
