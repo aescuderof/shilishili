@@ -11,54 +11,57 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<link rel="stylesheet" type="text/css" href="responsive.css">
 
 </head>
 
 <body>
 	
-<div class="container">
 	<header>
-		<img src="img/header-1.jpg" alt="Sabores de Chile, La Fête Chocolat">
+		<img src="img/header.jpg" alt="Sabores de Chile, La Fête Chocolat">
 		 
 		<div class="centered">
-		 <h3> SAVEURS DU CHILI</h3>
-		 <h4>ANTOLOGÍA DE UNA TIERRA</h4>
+			<img src="img/logo.svg">
+			 <h1> SAVEURS DU CHILI</h1>
+			 <h4>ANTOLOGÍA DE UNA TIERRA</h4>
 		 </div>
 	</header>
-</div>
 
-	<div class="row">
-  		<div class="column left sidenav">
-    		<nav>
-    		<ul class="navbar">
-				<li><a href="index.html"><span style="font-weight: 700;">Sabores de Chile</span></a> </li>
-				<li><a href="#rica-rica"> Rica-rica </a> </li>
-				<li><a href="#limon-pica">Limón de Pica</a> </li>
-				<li><a href="#lucuma">Lúcuma</a> </li>
-				<li><a href="#papaya">Papaya</a> </li>
-				<li><a href="#chirimoya">Chirimoya</a> </li>
-				<li><a href="#carmenere">Carménère</a> </li>
-				<li><a href="#murta">Murta</a> </li>
-				<li><a href="#calafate">Calafate</a> </li>
-			</ul>
-			</nav>
-  		</div>
+	<div class="navbar column">
 
-		<div class="column middle rica-rica main">
-		    <h3 id="rica-rica">Rica-rica</h3>
+		<ul>
+			<!-- <li id="logo-nav"> <img src="img/logo.svg"> </li>-->
+			<li id="index"><a href="index.html">Sabores de Chile</a> </li>
+			<li><a href="#rica-rica"> Rica-rica </a> </li>
+			<li><a href="#limon-pica">Limón de Pica</a> </li>
+			<li><a href="#lucuma">Lúcuma</a> </li>
+			<li><a href="#papaya">Papaya</a> </li>
+			<li><a href="#chirimoya">Chirimoya</a> </li>
+			<li><a href="#carmenere">Carménère</a> </li>
+			<li><a href="#murta">Murta</a> </li>
+			<li><a href="#calafate">Calafate</a> </li>
+		</ul>
+	</div>
+
+	<div class="column">
+		<div id="desc">
+			<h3 id="rica-rica">Rica-rica</h3>
 		    <img src="img/rica-rica.png">
-			<h5>Suave y aromático ganache con hierba Rica–rica, cubierto de chocolate blanco <br>30% cacao.</h5>
+			<h5>Suave y aromático ganache con hierba Rica–rica, cubierto de chocolate blanco 30% cacao.</h5>
 
 			<hr>
-			<p>Transpórtate al norte de Chile con el sabor de la Rica-rica. Una hierba nativa del desierto de Atacama que destaca por su intenso aroma y propiedades medicinales. Sus llamativas flores violeta abren en octubre para llenar de color este arbusto, que forma parte del distintivo paisaje. 
+			<p>Transpórtate al norte de Chile con el sabor de la Rica-rica. Una hierba nativa del desierto de Atacama que destaca por su intenso aroma y propiedades medicinales. Sus llamativas flores violeta abren en octubre para llenar de color este arbusto, que forma parte del distintivo paisaje 
 			</p>
+
 			<p>El intenso sabor de la Rica-rica contrasta a la perfección con la dulzura, cremosidad, y notas lácteas del chocolate blanco. Un maridaje inigualable.</p>
+
 			<hr>
 
-			<div id="space"></div>
+			<div class="mapa"><img src ="img/mapa-rica-rica.png"></div>
 
-			<h3 id="limon-pica">Limón de Pica</h3>
+		</div>	
+		<h3 id="limon-pica">Limón de Pica</h3>
 			<img src="img/limon-pica.png">
 			<h5>Gelée sabor limón de Pica sobre un suave y cremoso relleno sabor limón, cubierto de chocolate blanco 30% cacao.</h5>
 
@@ -68,20 +71,20 @@
 			<p>Con su acidez, el limón de Pica marida perfectamente con el dulzor del chocolate blanco. Un bombón con doble relleno, donde la frescura del gelée contrasta muy bien con la cremosidad del ganache. </p>
 			<hr>
 
-			<div id="space"></div>
 
-			<h3 id="lucuma">Lúcuma</h3>
+
+		<h3 id="lucuma">Lúcuma</h3>
 			<img src="img/lucuma.png">
 			<h5>Deliciosa crema de pulpa de lúcuma, cubierta con chocolate leche 34% cacao.</h5>
 			<hr>
 			<p>Déjate encantar por las bondades del litoral central de Chile con el dulce sabor de este bombón de lúcuma. Un pequeño fruto de color rojo a amarillo-anaranjado cultivado principalmente entre las costas de la Región de Coquimbo y Valparaíso, generalmente utilizado para la elaboración de repostería fina, helados y postres.</p>
 
-			<p>El dulce y profundo sabor de la lúcuma, junto con su textura untuosa pero delicada, complementa muy bien con las notas acarameladas del chocolate leche. </p>	
+			<p>El dulce y profundo sabor de la lúcuma, junto con su textura untuosa pero delicada, complementa muy bien con las notas acarameladas del chocolate leche. </p>
+
 			<hr>
 
-			<div id="space"></div>
 
-			<h3 id="papaya"> Papaya</h3>
+		<h3 id="papaya"> Papaya</h3>
 			<img src="img/papaya.png">
 			<h5>Bombón relleno de ganache con pulpa de papaya, cubierto con chocolate leche 34% cacao.</h5>
 			<hr>
@@ -90,9 +93,9 @@
 			<p>El delicado sabor de la papaya y su gran carácter, nos recuerda frutos maduros como el melón y la pera, por lo que el sutil sabor a tostado del chocolate leche es el complemento ideal para destacarlo. </p>
 			<hr>
 
-			<div id="space"></div>
+		
 
-			<h3 id="chirimoya">Chirimoya</h3>
+		<h3 id="chirimoya">Chirimoya</h3>
 			<img src="img/chirimoya.png">
 			<h5>Gelée sabor chirimoya  sobre  un suave relleno cremoso de chirimoya, cubierto con chocolate leche 34% cacao.</h5>
 			<hr>
@@ -102,9 +105,7 @@
 			<p>En este bombón de doble relleno se potencia la frescura de la chirimoya con un liviano gelée, que por su suavidad combina perfectamente con la cremosidad del ganache de este mismo fruto. Es así como también el chocolate leche y sus delicadas notas a fruta fresca, componen una armonía perfecta de sabores.</p>
 			<hr>
 
-			<div id="space"></div>
-
-			<h3 id="carmenere">Carménère</h3>
+		<h3 id="carmenere">Carménère</h3>
 			<img src="img/carmenere.png">
 			<h5>Ganache en base a vino Carménère, cubierto de chocolate bitter 58% cacao.</h5>
 			<hr>
@@ -113,9 +114,7 @@
 			<p>En este bombón, nuestro chocolate bitter marida muy bien con la particular robustez del Carménère, consiguiendo un impecable equilibrio entre estos intensos sabores. Una experiencia sublime. </p>
 			<hr>
 
-			<div id="space"></div>
-
-			<h3 id="murta">Murta</h3>
+		<h3 id="murta">Murta</h3>
 			<img src="img/murta.png">
 			<h5>Bombón de chocolate bitter 58% cacao, relleno con ganache de murta.</h5>
 			<hr>
@@ -124,38 +123,26 @@
 			<p>En este caso, la acidez y el dulzor de la murta, complementan muy bien con la intensidad y el aroma de nuestro chocolate bitter, generando un maridaje inigualable. </p>
 			<hr>
 
-			<div id="space"></div>
+			
 
-			<h3 id="calafate">Calafate</h3>
+		<h3 id="calafate">Calafate</h3>
 			<img src="img/calafate.png">
 			<h5>Bombón con cremoso relleno de calafate, cubierto con chocolate bitter 58% cacao.</h5>
 			<hr>
 			<p>Lleva tus sentidos hasta el fin del mundo con la textura, aroma y sabor de este bombón de calafate. Un pequeño fruto de color negro originario de la Patagonia chilena y argentina, con el que los pueblos prehispánicos -como los Kawéskar y los Selknam-, preparaban infusiones para tratar distintas dolencias. Un superalimento con propiedades antiinflamatorias y antioxidantes.</p>
 			<p>Siendo una de las bayas más dulces del sur de Chile, el calafate hace que la intensidad y astringencia del chocolate bitter 58% cacao sea la mejor combinación. </p>
 			<hr>
-
-			<div id="space"></div>
-
-
-
-		</div>
-
-		<div class="column right">
-		    <div id="uno"><img src="img/mapa-rica-rica.png "></div>
-		    <div id="dos"><img src="img/mapa-limon.png"></div>
-		    <div id="tres"><img src="img/mapa-lucuma.png"></div>
-		    <div id="cuatro"><img src="img/mapa-papaya.png"></div>
-		    <div id="cinco"><img src="img/mapa-chirimoya.png"></div>
-		    <div id="seis"><img src="img/mapa-carmenere.png"></div>
-		    <div id="siete"><img src="img/mapa-murta.png"></div>
-		    <div id="ocho"><img src="img/mapa-calafate.png"></div>
-		</div>
-
-		  
 	</div>
 
-<footer>
-	
-</footer>
+	<!--<div class="column">
+			<img src="img/mapa-rica-rica.png">
+		    <img src="img/mapa-limon.png">
+		    <img src="img/mapa-lucuma.png">
+		    <img src="img/mapa-papaya.png">
+		    <img src="img/mapa-chirimoya.png">
+		    <img src="img/mapa-carmenere.png">
+		    <img src="img/mapa-murta.png">
+		    <img src="img/mapa-calafate.png">	
+	</div> -->
+
 </body>
-</html>

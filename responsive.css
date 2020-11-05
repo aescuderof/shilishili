@@ -1,0 +1,198 @@
+body{
+  position: relative;
+  margin: 0;
+  background-image: url('img/dark_wall.png');
+}
+
+header img{
+  width: 100%;
+  display: block;
+}
+
+.navbar {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: left;
+  position: relative;
+
+
+}
+
+.navbar ul {
+  list-style-type: circle;
+  color: white; 
+  position: fixed;
+  top: 15%;
+  padding-bottom: 10px;
+}
+
+li {
+  padding-top: 12%;
+}
+
+#logo-nav{
+  list-style-type: none;
+  margin: 0%;
+
+}
+
+#index {
+    list-style-type: none;
+    font-weight: 700;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #C27234;
+}
+
+.column {
+  float: left;
+  width: 28%;
+  margin: 2%;
+  align-content: center;
+  display: inline-block;
+}
+
+.column img {
+  margin: auto;
+
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -25%);
+}
+
+.centered img{
+  width: 15%;
+  margin: auto;
+
+}
+.centered h1 {
+  font-family: quatro-slab, serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 3px;
+  color: #C27234;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.centered h4 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  color: #C27234;
+  text-align: center;
+  margin-top: 0px;
+
+}
+
+
+
+
+hr {
+   background-color: #C27234; 
+   height: 1px; 
+   border: 0;
+   width: 50%;
+}
+
+div {
+  display: inline-block;
+
+}
+
+div img {
+  display: block;
+  width: 35%;
+}
+
+h3{
+  font-family: quatro-slab, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3vw;
+  color: #C27234;
+  text-align: center;
+  margin-top: 15%;
+}
+
+h5 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  padding: 0% 18% 0% 18%;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  color: white;
+  padding:0% 0% 0% 0%;
+  text-align: center;
+
+}
+
+@media screen and (min-width: 480px) {
+  header img{
+    width: 100%;
+    display: block;
+  }
+
+  
+
+  .centered h1 {
+  font-size: 21px;  
+  }
+
+  .centered h4 {
+  font-size: 9px;  
+  letter-spacing: 5px;
+  }
+
+@media screen and (min-width: 767px) {
+ 
+
+  .centered h1 {
+  font-size: 30px; 
+  }
+
+  .centered h4 {
+  font-size: 12px;  
+  letter-spacing: 10px;
+  }
+
+
+@media screen and (min-width: 950px) {
+
+  .centered h1 {
+  font-size: 34px;
+  padding: 0px;
+  }
+
+  .centered h4 {
+  font-size: 18px; 
+  letter-spacing: 10px; 
+  }
+
+  
+  
+}
