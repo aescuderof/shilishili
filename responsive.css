@@ -61,16 +61,39 @@ a:hover {
 
 .column {
   float: left;
-  width: 28%;
+  width: 25%;
   margin: 2%;
   align-content: center;
   display: inline-block;
 }
 
-.column img {
-  margin: auto;
 
+
+.column2 {
+  float: left;
+  width: 56%;
+  margin: 2%;
+  align-content: center;
+  display: inline-block;
 }
+
+
+#mapa {
+  width:100%;
+}
+
+#mapa img {
+  float: right;
+  width: 15%;
+  margin-left: 20%;
+}
+
+.bombon img{
+  width: 25%;
+  margin: auto;
+  margin-top: 5%
+}
+
 
 .centered {
   position: absolute;
@@ -123,6 +146,37 @@ div img {
   width: 35%;
 }
 
+.bombon  h3{
+  font-family: quatro-slab, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3vw;
+  color: #C27234;
+  text-align: center;
+  margin-top: 15%;
+  margin: auto;
+}
+
+.bombon h5 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2%;
+  
+}
+
+.bombon p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  color: white;
+  margin:3% 0% 3% 0%;
+  text-align: center;
+
+}
+
+
 h3{
   font-family: quatro-slab, serif;
   font-weight: 700;
@@ -132,43 +186,6 @@ h3{
   text-align: center;
   margin-top: 15%;
 }
-
-h5 {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 300;
-  color: white;
-  font-size: 13px;
-  text-align: center;
-  padding: 0% 18% 0% 18%;
-}
-
-h3{
-  font-family: quatro-slab, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 3vw;
-  color: #C27234;
-  text-align: center;
-  margin-top: 15%;
-}
-
-h5 {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 300;
-  color: white;
-  font-size: 13px;
-  text-align: center;
-  padding: 0% 18% 0% 18%;
-}
-
-p {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 300;
-  color: white;
-  padding:0% 0% 0% 0%;
-  text-align: center;
-}
-
 
 div {
   display: block;
@@ -271,7 +288,7 @@ div {
 
    .column {
     display: block;
-    width: 28%;
+    width: 25%;
     margin: 2%;
 
    }
