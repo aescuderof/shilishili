@@ -5,11 +5,32 @@ body{
 }
 
 header img{
+  position: relative;
   width: 100%;
   display: block;
+  height: auto;
 }
 
+header .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(0 0 0 0);
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
 
+.btn:hover {
+  background-color: black;
+  color: white;
+}
 
 .navbar {
   font-family: 'Nunito', sans-serif;
