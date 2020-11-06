@@ -9,6 +9,8 @@ header img{
   display: block;
 }
 
+
+
 .navbar {
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
@@ -84,14 +86,19 @@ a:hover {
 
 #mapa img {
   float: right;
-  width: 15%;
+  width: 14%;
   margin-left: 20%;
+
 }
 
 .bombon img{
   width: 25%;
   margin: auto;
-  margin-top: 5%
+  margin-top: 3%
+}
+
+#space {
+  margin-bottom: 15%;
 }
 
 
