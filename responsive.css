@@ -285,7 +285,7 @@ div {
 
 
 .topnav a {
- 
+  font-size: 1vw;
   display: block;
   color: white;
   text-align: left;
@@ -312,10 +312,13 @@ div {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
+
   .topnav a.icon {
     float: right;
     display: block;
   }
+
+
 }
 
 @media screen and (max-width: 600px) {
