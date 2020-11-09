@@ -237,8 +237,23 @@ div {
   letter-spacing: 5px;
   }
 
+  .bombon h3 {
+    font-size: 3vw;
+  }
+
+   .bombon h5 {
+    font-size: 1.7vw;
+  }
+
+  .bombon p {
+    font-size: 1.6vw;
+  }
+
 @media screen and (min-width: 767px) {
  
+  .topnav a {
+  font-size: 1.5vw;
+
   .centered img {
     width: 15%;
   }
@@ -255,6 +270,8 @@ div {
   .navbar {
     font-size: 1.4vw;
   }
+
+  
 
 
 @media screen and (min-width: 950px) {
@@ -285,7 +302,7 @@ div {
 
 
 .topnav a {
-  font-size: 0.9vw;
+  font-size: 1vw;
   display: block;
   color: white;
   text-align: left;
