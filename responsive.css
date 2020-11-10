@@ -224,16 +224,12 @@ div {
   }  
 
   .centered h1 {
-  font-size: 21px;  
+  font-size: 3vw;  
   }
   
 
-  .centered h1 {
-  font-size: 21px;  
-  }
-
   .centered h4 {
-  font-size: 9px;  
+  font-size: 1vw;  
   letter-spacing: 5px;
   }
 
@@ -251,19 +247,20 @@ div {
 
 @media screen and (min-width: 767px) {
  
+  .centered img {
+    width: 13%;
+  }
+
   .topnav a {
   font-size: 1.5vw;
+    }
 
-  .centered img {
-    width: 15%;
-  }
-  
   .centered h1 {
-  font-size: 2.5vw; 
+  font-size: 2vw; 
   }
 
   .centered h4 {
-  font-size: 12px;  
+  font-size: 1.5vw;  
   letter-spacing: 10px;
   }
 
@@ -271,10 +268,14 @@ div {
     font-size: 1.4vw;
   }
 
-  
+  }
 
 
 @media screen and (min-width: 950px) {
+
+  .centered img {
+    width: 15%;
+  }
 
   .centered h1 {
   font-size: 2.5vw;
@@ -282,7 +283,7 @@ div {
   }
 
   .centered h4 {
-  font-size: 1.2vw;  
+  font-size: 1.5vw;  
   letter-spacing: 5%;
   }
 
