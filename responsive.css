@@ -408,6 +408,47 @@ div {
     display: block;
   }
 
+  
+  .centered img {
+    width: 15%;
+  }
+
+  .centered h1 {
+  font-size: 2.5vw;
+  padding: 0px;
+  }
+
+  .centered h4 {
+  font-size: 1.5vw;  
+  letter-spacing: 5%;
+  }
+
+.bombon img{
+  width: 20%;
+  margin: auto;
+  margin-top: 2%
+}
+
+.bombon h3 {
+    font-size:2vw;
+  }
+
+
+  .bombon h5 {
+    font-size:1.1vw;
+  }
+
+  .bombon p {
+    font-size:1.25vw;
+  }
+
+#mapa img {
+  width: 10%;
+
+}
+
+
+
 }
 
 @media screen and (max-width: 600px) {
