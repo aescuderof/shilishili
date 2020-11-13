@@ -5,6 +5,7 @@
 	<title>Saveurs du Chili | La Fête Chocolat</title>
 
 	<meta charset="utf-8">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="https://use.typekit.net/nmm4xza.css">
@@ -13,7 +14,10 @@
 
 	<link rel="stylesheet" type="text/css" href="responsive.css">
 
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 
 </head>
 
@@ -21,7 +25,6 @@
 	
 	<header>
 		<img src="img/header.jpg" alt="Sabores de Chile, La Fête Chocolat">
-		 <img src="img/header">
 		<div class="centered">
 			<a href="https://cl.lafetechocolat.com/"><img src="img/logo.svg"></a>
 			 <h1> SAVEURS DU CHILI</h1>
@@ -29,10 +32,27 @@
 		</div>	 
 	</header>
 
-	<div class="navbar column topnav" id="myTopnav">
 
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-list2"></span>Menu</a>
+		</div>
+ 
+		<div class="topnav" id="myTopnav">
+		  <a href="#home" class="active">Home</a>
+		  <a href="#news">News</a>
+		  <a href="#contact">Contact</a>
+		  <a href="#about">About</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
+		</div>
+
+
+
+<!--
+	<div class="navbar column topnav" id="myTopnav">
+		<nav>
 		<ul>
-			<!-- <li id="logo-nav"> <img src="img/logo.svg"> </li>-->
 			<li id="index"><a href="index.html">Sabores de Chile</a> </li>
 			<li><a href="#rica-rica"> Rica-rica </a> </li>
 			<li><a href="#limon-pica">Limón de Pica</a> </li>
@@ -42,8 +62,12 @@
 			<li><a href="#carmenere">Carménère</a> </li>
 			<li><a href="#murta">Murta</a> </li>
 			<li><a href="#calafate">Calafate</a> </li>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 		</ul>
-	</div>
+		</nav>
+	</div> -->
 
 	<div class="column2">
 		<div class="bombon">
@@ -199,4 +223,14 @@
 
 <footer> www.lafetechocolat.com </footer>
 
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script> 
 </body>
